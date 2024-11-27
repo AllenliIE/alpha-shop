@@ -1,0 +1,58 @@
+form {
+  height: 350px;
+  border-bottom: 2px solid #ccc;
+}
+
+.formTitle {
+  font-size: 22px;
+  font-weight: border;
+}
+
+.formBodyItem {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.inputGroup1 {
+  flex: 1;
+}
+
+.inputGroup2 {
+  flex: 2;
+  margin-left: 30px;
+}
+
+.inputGroup3 {
+  flex: 2;
+}
+
+.inputLabel {
+  font-size: 1em;
+  height: 1em;
+  color: #444;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.inputStyle, .selectStyle {
+  height: 45px;
+  padding:0 10px;
+  border-radius: 5px;
+  border: 2px solid #777;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inputStyle:focus,
+.selectStyle:focus {
+  outline: none;
+  color: #444;
+}
+
+.inputStyle::placeholder {
+  color: #ccc;
+}
+
+.inputStyle::placeholder:hover {
+  color: #777;
+}

@@ -1,0 +1,41 @@
+form {
+  height: 350px;
+  border-bottom: 2px solid #ccc;
+}
+
+.formTitle {
+  font-size: 22px;
+  font-weight: border;
+}
+
+.formBodyItem {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.inputLabel {
+  font-size: 14px;
+  color: #808080;
+  margin-bottom: 5px;
+}
+
+.inputGroup6 {
+  width: 350px;
+  margin-bottom: 6px;
+}
+
+.inputGroup5 {
+  width: 250px;
+  margin-right: 20px;
+  margin-bottom: 6px;
+}
+
+.inputStyle {
+  height: 45px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 2px solid #777;
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,11 @@
+.mainTitle {
+  margin-bottom: 1.3em;
+  font-size: 1.8em;
+  font-weight: border;
+  padding: 0 3em;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.2em 4em;
+}

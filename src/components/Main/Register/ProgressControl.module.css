@@ -1,0 +1,51 @@
+.progressControlContainer {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.next, .prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 50px;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.next:hover, .prev:hover {
+  cursor: pointer;
+  background-color: #f67599;
+  color: #fff;
+  border: none;
+}
+
+.hiddenPrev {
+  opacity: 0;
+}
+
+.rightArrow, .leftArrow {
+  fill: #000;
+}
+
+.rightArrow {
+  margin-left: 10px;
+}
+
+.leftArrow {
+  margin-right: 10px;
+}
+
+.next:hover .rightArrow,
+.prev:hover .leftArrow {
+  fill: #fff;
+}

@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+
+.pageBar,
+.logo,
+.functionBar {
+  flex-basis: calc(100% * (1 / 3));
+  display: flex;
+  font-weight: bold;
+}
+
+.pageBar {
+  gap: 5%;
+}
+
+.pageBar > a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+.logo {
+  justify-content: center;
+}
+
+.logo span {
+  font-size: 22px;
+}
+
+.functionBar {
+  justify-content: flex-end;
+  gap: 5%;
+}
+
+.sun {
+  display: none;
+}
