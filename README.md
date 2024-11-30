@@ -8,7 +8,7 @@ Cart on right side with add/minus button to make shopping more easier.
 
 More function will be added soon!
 
-![Uploading Screenshot 2024-11-30 at 10.43.33 PM.png…]()
+<img width="1242" alt="Screenshot 2024-11-30 at 10 43 33 PM" src="https://github.com/user-attachments/assets/096adfb0-6e5f-4748-a402-b1c035ee4cc9">
 
 ## Installation
 
