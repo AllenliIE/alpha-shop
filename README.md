@@ -8,6 +8,8 @@ Cart on right side with add/minus button to make shopping more easier.
 
 More function will be added soon!
 
+![Uploading Screenshot 2024-11-30 at 10.43.33 PM.png…]()
+
 ## Installation
 
 Here are the steps to install and start the server:
